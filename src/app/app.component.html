@@ -1,0 +1,6 @@
+<button *ngIf="!hitebutton" (click)="hide()">Add</button>
+<div  *ngIf="hitebutton" >
+  <button (click)="add()">+</button>
+  <p>{{count}}</p>
+  <button (click)="sub()">-</button>
+</div>
